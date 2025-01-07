@@ -84,3 +84,12 @@ except:
     print("se ha producido un error")
 finally:
     print("Ha finalizado el manejo de excepciones")
+
+"""
+# EJERCICIO
+"""
+"""Crea un programa que imprima por consula todos los numeros comprendidos entre el 10 y el 55 (incluidos), pares y que no son ni el 16 ni multiplos de 3."""
+
+for number in range (10, 56):
+    if number % 2 == 0 and number != 16 and number % 3 != 0:
+        print(number)
