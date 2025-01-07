@@ -47,7 +47,40 @@ my_new_number = my_number
 print(f"my_number is my_new_number es {my_number is my_new_number}")
 print(f"my_number is my_new_number es {my_number is not my_new_number}")
 
-#Operadores de Pertenencia
+# Operadores de Pertenencia
 print(f"'f' in 'francisco' = {'f' in 'francisco'}")
 print(f"'h' in 'francisco' = {'h' not in 'francisco'}")
 
+"""
+Estructuras de control
+"""
+
+# Condicionales
+
+my_string = "FranComabella"
+
+if my_string == "FranComabella":
+    print("my string es 'FranComabella'")
+elif my_string == "Comagol":
+    print("my string es 'Comagol'")
+else:
+    print("my string no es 'FranComabella'")
+
+# Iterativas
+
+for i in range(11):
+    print(i)
+
+i = 0
+
+while i <= 10:
+    print(f"i vale: {i}")
+    i += 1
+
+# Manejo de Excepciones
+try:
+    print(10/10)
+except:
+    print("se ha producido un error")
+finally:
+    print("Ha finalizado el manejo de excepciones")
