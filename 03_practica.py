@@ -107,8 +107,9 @@ def my_agenda():
                 name = input("Introduce el nombre del contacto que quieres eliminar: ")
                 if name in agenda:
                     del agenda [name]
+                    print(f"Se ha eliminado a {name} de la agenda.")
                 else:
-                    print(f"El contacto {name}, no existe")
+                    print(f"El contacto {name}, no existe.")
                 pass
             case "5":
                 print("Saliendo de la agenda.")
