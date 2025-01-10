@@ -133,6 +133,3 @@ def print_numbers(text_1, text_2) -> int:
     return count
         
 print(print_numbers("texto 1", "texto 2"))
-
-
-
