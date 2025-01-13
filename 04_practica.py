@@ -112,10 +112,6 @@ def check( word1: str, word2: str):
 
     print(f"¿{word1} es un isograma?: {len(word1) == len(set(word1))}")
     print(f"¿{word2} es un isograma?: {len(word2) == len(set(word2))}")
-            
-            
-            
         
 check("neuquen", "phyton")
 #check("amor", "roma")
-

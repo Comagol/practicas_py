@@ -66,7 +66,7 @@ my_int_f, my_int_g = value(my_int_d, my_int_e)
 print(f"{my_int_d}, {my_int_e}")
 print(f"{my_int_f}, {my_int_g}")
 
-#Por referencia, aca si podemos porque agregamos el temp para guardan un nuevo lugar en memoria 
+#Por referencia, aca si podemos porque agregamos el temp para guardar info (y no perderla) un nuevo lugar en memoria.
 
 def ref(value_a : list , value_b : list) -> tuple:
     temp = value_a
