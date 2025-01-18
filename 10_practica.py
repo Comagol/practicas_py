@@ -8,10 +8,10 @@ try:
 except Exception as e:
     print(f"Se ha producido un error: {e} ({type(e).__name__})")
 
+
 """
 Extra
 """
-
 
 class StrTypeError(Exception):
     pass
@@ -24,8 +24,7 @@ def process_params(parameters: list):
     elif parameters[1] == 0:
         raise ZeroDivisionError()
     elif type(parameters[2]) == str:
-        raise StrTypeError(
-            "El tercer elemento no puede ser una cadena de texto.")
+        raise StrTypeError("El tercer elemento no puede ser una cadena de texto.")
 
     print(parameters[2])
     print(parameters[0]/parameters[1])
